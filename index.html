@@ -10,11 +10,11 @@
     <link rel="icon" href="public/assets/images/favicon.jpeg" />
     <link
       rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="./src/js/bootstrap/dist/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
-      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+      href="./src/js/bootstrap-icons/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./src/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,8 +54,12 @@
         </div>
       </div>
     </nav>
-
-    <section class="first-section" id="first-section">
+    <section id="first-section">
+      <video class="w-100" autoplay loop muted>
+        <source src="/public/assets/videos/video-section.mp4" type="video/mp4" />
+      </video>
+    </section>
+    <!-- <section class="first-section" id="first-section">
       <div
         class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center"
       >
@@ -69,7 +73,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="ebooks" class="page-section">
       <div class="container album py-5">
@@ -170,11 +174,7 @@
       </div>
     </section>
 
-    <section class="page-section">
-    <video class="w-100" autoplay loop muted>
-      <source src="/public/assets/videos/video-section.mp4" type="video/mp4" />
-    </video>
-  </section>
+
     <section class="page-section" id="about">
       <div class="container px-4 px-lg-5">
         <h2 class="text-center mt-0">O que você obterá destes livros?</h2>
@@ -329,7 +329,7 @@
       </div>
     </footer>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./src/js/scripts.js"></script>
+    <script type="text/javascript" src="./src/js/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./src/js/scripts.js"></script>
   </body>
 </html>
