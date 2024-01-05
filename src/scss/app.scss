@@ -193,4 +193,10 @@ body {
   background: #e6e6e6;
 }
 
+@media (max-width: 768px) {
+  .page-section {
+    padding: 4rem 0;
+  }
+}
+
 /** Global styles END **/
